@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#viewMaster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    margin: 20px;
+}
+.person img{
+    width: 150px;
+}
+.person p{
+    margin: 0;
+}
+.person h3{
+    margin: 8px;
+}
+input{
+    width: 50%;
+    height: 25px;
+    border-radius: 4px;
+    border: 0;
+    text-align: center;
+    background-color: whitesmoke;
+}
+button{
+    width: 80px;
+    background-color: rgb(150, 52, 52);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+
+}
